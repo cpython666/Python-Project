@@ -47,5 +47,6 @@ def getPicture():
     image = image.filter(ImageFilter.BLUR)
 
     image.save('./%s.jpg' % char_4)
+    image.show()
 
 getPicture()
